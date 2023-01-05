@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100%;
+
+}
+
+.topcontainer {
+    background-color: black;
+    color: white;
+}
+
+.logo img {
+    text-align: left;
+}
+
+.chefs-image {
+    line-height: 25px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    border-bottom: goldenrod 2px solid;
+
+}
+
+.chefs-image em {
+    color: gold;
+}
+
+.chefs-image section {
+    word-spacing: 1.5px;
+    margin: auto;
+    width: 33%;
+}
+
+.our-goals-img {
+    text-align: center;
+}
+
+.our-goals-img img {
+    width: 375px;
+    height: 300px;
+    margin: 75px 50px 50px 0px;
+}
+
+.our-goals-text section {
+    text-align: center;
+    margin: auto;
+    width: 33%;
+    height: 300px;
+    line-height: 27.5px;
+    word-spacing: 1.5px;
+}
+
+.our-goals-text h1 {
+    text-align: center;
+    margin: auto;
+    width: 33%;
+    margin-bottom: 30px;
+}

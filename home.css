@@ -1,0 +1,282 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.first-page {
+
+    background-image: url(/images/pizza.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 800px;
+    width: 100%;
+    display: inline-block;
+
+}
+
+header {
+    border-bottom: white 1px solid;
+
+}
+
+.logo {
+    display: inline;
+    position: absolute;
+    left: 34px;
+    top: 12px;
+}
+
+.logo img {
+    width: 350px;
+
+}
+
+.items {
+    display: block;
+    margin: 33px auto;
+    width: 45%;
+    color: white;
+
+}
+
+.navbar {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 8px;
+    padding-left: 10px;
+}
+
+.navbar li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 5px;
+    text-transform: capitalize;
+
+
+}
+
+.navbar li a:hover {
+    border: white 1px solid;
+    border-radius: 10px;
+    color: khaki;
+}
+
+.right-buttons {
+    position: absolute;
+    top: 40px;
+    right: 34px;
+}
+
+.contact-navbar-right {
+    font-size: 20px;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.contact-navbar-right li {
+    display: inline-block;
+    margin: 8px;
+}
+
+.contact-navbar-right li a {
+    padding: 8px 10px;
+    text-decoration: none;
+    border: white 1px solid;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.contact-navbar-right li a:hover {
+    color: khaki;
+}
+
+.first-page-content {
+    position: absolute;
+    right: 300px;
+    top: 250px;
+}
+
+.first-page-content div {
+    margin: 20px 0px;
+}
+
+.first-line {
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-size: 60px;
+}
+
+.second-line {
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-size: 60px;
+    font-family: 'Londrina Outline', cursive;
+    text-transform: capitalize;
+}
+
+.para {
+    color: white;
+    width: 500px;
+    font-size: 18px;
+}
+
+.first-page-content button {
+    align-content: center;
+    margin-top: 20px;
+    padding: 15px 10px;
+    color: black;
+    background-color: khaki;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: large;
+    border: none;
+}
+
+.first-page-content button:hover {
+    background-color: burlywood;
+}
+
+.second-page,
+.third-page {
+    background-color: bisque;
+
+}
+
+.heading-1 {
+
+    text-align: center;
+    line-height: 78px;
+    font-family: 'Merriweather', serif;
+    padding: 50px 50px;
+    color: black;
+
+}
+
+.heading-1 h1 {
+
+    font-size: 50px;
+}
+
+.heading-1 section {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: underline red 4px;
+}
+
+.special-images {
+    width: 75%;
+    margin: auto;
+    line-height: 50px;
+}
+
+.special-images .pizza {
+    display: inline-block;
+    margin: 0px 11px;
+
+}
+
+.special-images p {
+    text-align: center;
+    line-height: 10px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+h2
+ {
+    line-height: 100px;
+    text-align: center;
+    text-decoration: underline red 4px;
+}
+
+.sides {
+    width: 64%;
+    margin: auto;
+    line-height: 50px;
+}
+
+.sides div {
+    display: inline-block;
+    margin: 40px 30px;
+}
+
+.sides p {
+    text-align: center;
+    line-height: 10px;
+}
+
+.dishofday {
+    width: 80%;
+    margin-left: 120px;
+    padding: 50px 50px;
+    border: 4px black solid;
+    text-align: center;
+    height: 700px;
+    border-radius: 50px;
+
+}
+
+.dishofday h3 {
+    font-size: 25px;
+    padding: 0px 0px 20px 0px;
+    text-decoration: black 5px underline;
+
+}
+
+.dishofday img {
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.p1-p1 {
+    line-height: 30px;
+
+    font-size: 25px;
+}
+
+.third-page h1 {
+    text-align: center;
+    padding: 50px 0px;
+    text-decoration: underline 5px red;
+
+}
+
+.third-page h1 i {
+
+    margin: 0px 20px;
+}
+
+.special-offers-1,
+.special-offers-2 {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.feedback {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    word-spacing: 30px;
+}
+
+.feedback:hover {
+    cursor: pointer;
+    color: khaki;
+}

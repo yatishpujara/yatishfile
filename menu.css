@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+
+
+}
+
+.menu {
+    margin: 40px 80px;
+    color: white;
+    /* border: white 1px solid; */
+
+}
+
+.menu h1 {
+    text-align: center;
+    text-decoration: underline 5px solid;
+}
+
+.menu h4 {
+    margin-top: 30px;
+    font-size: 30px;
+    text-decoration: underline 4px gold;
+
+}
+
+.menu span {
+    color: gold
+}
+
+.menu li {
+    margin: 30px 0px;
+    width: 73%;
+    font-size: 20px;
+    border-bottom: rgba(200, 200, 200, 0.4) 2px solid;
+}
+
+.space {
+    letter-spacing: 1.5px;
+    margin-left: 10px;
+
+}

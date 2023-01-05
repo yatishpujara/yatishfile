@@ -1,0 +1,56 @@
+body
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+background-color: black;
+color:white;
+}
+.container1
+{
+    width:800px;
+    height:700px;
+    margin:30px auto;
+}
+h1
+{
+    text-transform: capitalize;
+    text-align: center;
+    border-bottom: 2px white solid;
+}
+table
+{
+    font-size: 20px;
+}
+td
+{
+    padding: 15px 20px 0px 0px;
+}
+.txt
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+}
+.txt1
+{
+    width: 830px;
+    height:150px;
+    border-radius: 8px;
+    border: none;
+}
+button
+{
+    width:835px;
+    height:50px;
+    border-radius: 8px;
+    border: none;
+    font-size: 30px;
+    background-color: gold;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: khaki;
+}
